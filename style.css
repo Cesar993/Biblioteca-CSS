@@ -1,0 +1,107 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+/* BOTON */
+  .btn{
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 6px 50px;
+    border-color: #34A9AA;
+    border-style: solid;
+    color: #34A9AA;
+    font-style: initial;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin: 60px ;
+}  
+/* ROW Y COLUMN */
+
+
+div{
+    padding: 15px;
+    
+}
+
+.row {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex: 5;
+}
+
+.col {
+    background-color: cadetblue;
+    display: flex;
+    color: white;
+    flex: 1;
+}
+.col-2{
+    background-color: cadetblue;
+    display: flex;
+    color: white;
+    flex: 2;
+}
+.col-3{
+    background-color: cadetblue;
+    display: flex;
+    color: white;
+    flex: 3;
+}
+
+/* barra nav */
+.nav {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+h1.nav-title {
+    margin: 0px 0px 0px 10px;
+}
+
+
+.nav-links {
+    
+    display: flex;
+    color: white;
+    margin: 0px 10px 0px 0px;
+    list-style: none;
+
+}
+a{
+    color: white;
+    justify-content: center;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.active{
+    font-weight: bold;
+}
+.btnNav{
+    background-color: #17A2B8;
+    font-size: 15px;
+    color: white;
+    height: 28px;
+    width: 70px; 
+    border-color: black;
+    border-style: double;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+  
+}
